@@ -4,7 +4,7 @@ title: 'Handling of Flexible Materials Using Robot Arms'
 authors:
   - admin
 
-date: '2026-06-09T00:00:00Z'
+date: '2026-06-08T00:00:00Z'
 doi: ''
 publishDate: '2026-06-08T00:00:00Z'
 

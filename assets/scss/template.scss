@@ -1,9 +1,117 @@
-// Make page header alignment consistent with widget page header alignment
+// TH Nürnberg Georg Simon Ohm — Farbschema
+// Primärfarbe OHM-Rot: #E2001A
+
+:root {
+  --color-primary-900: #7a000d;
+  --color-primary-700: #b0000f;
+  --color-primary-500: #e2001a;
+  --color-primary-300: #f05060;
+  --color-primary-100: #fcd6da;
+}
+
+// ---- Basis-Layout ----
+
 .universal-wrapper h1 {
   text-align: center;
 }
 
-// Center the CTA shortcode button
 .cta-group {
   justify-content: center;
+}
+
+// ---- Farben ----
+
+a:not(.btn):not(.navbar-brand) {
+  color: #e2001a;
+}
+
+a:not(.btn):not(.navbar-brand):hover {
+  color: #b0000f;
+}
+
+.nav-link.active,
+.nav-item.active > .nav-link {
+  color: #e2001a !important;
+}
+
+// ---- Buttons ----
+
+.btn-primary {
+  background-color: #e2001a !important;
+  border-color: #e2001a !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #b0000f !important;
+  border-color: #b0000f !important;
+}
+
+.btn-outline-primary {
+  color: #e2001a !important;
+  border-color: #e2001a !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary.active {
+  background-color: #e2001a !important;
+  border-color: #e2001a !important;
+  color: #fff !important;
+}
+
+// ---- Filter-Buttons (Ausschreibungsseite) ----
+
+.pub-filters .btn.active,
+.pub-filters .btn:hover {
+  background-color: #e2001a !important;
+  border-color: #e2001a !important;
+  color: #fff !important;
+}
+
+// ---- Karten ----
+
+.card {
+  border: none;
+  border-top: 3px solid #e2001a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 22px rgba(226, 0, 26, 0.14);
+  transform: translateY(-3px);
+}
+
+// ---- Breitere Inhaltsdarstellung ----
+
+// Seitencontainer auf größeren Bildschirmen erweitern
+@media (min-width: 1200px) {
+  .universal-wrapper .container,
+  .page-wrapper .container {
+    max-width: 1500px;
+  }
+}
+
+// Publikationsliste — volle verfügbare Breite
+.col-12.col-lg-8 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+// ---- Hero-Bereich ----
+
+.hero-title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+// ---- Footer ----
+
+footer a {
+  color: #e2001a !important;
+}
+
+footer a:hover {
+  color: #b0000f !important;
 }

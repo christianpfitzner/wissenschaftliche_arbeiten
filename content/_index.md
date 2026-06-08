@@ -10,7 +10,7 @@ sections:
         Ausgeschriebene
         Wissenschaftliche Arbeiten
       image:
-        filename: welcome.jpg
+        filename: robotics-hero.jpg
       text: |
         <br>
 

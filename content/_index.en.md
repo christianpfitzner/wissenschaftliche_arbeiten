@@ -10,7 +10,7 @@ sections:
         Open Thesis
         Topics
       image:
-        filename: welcome.jpg
+        filename: robotics-hero.jpg
       text: |
         <br>
 
