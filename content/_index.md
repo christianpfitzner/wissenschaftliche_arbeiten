@@ -1,74 +1,53 @@
 ---
-title: ''
-summary: ''
-date: 2025-01-01
+# Seitentitel leer lassen, um den Site-Titel zu verwenden
+title:
+date: 2026-06-08
 type: landing
 
 sections:
-  # Hero Section
   - block: hero
     content:
-      title: Markdown Slides
-      text: |-
-        **Open-source slide decks.**  
-        Write in Markdown, present anywhere, share with anyone.
-      primary_action:
-        text: Browse Decks
-        url: '/slides/'
-        icon: play
-      secondary_action:
-        text: Create Your Own
-        url: https://hugoblox.com/templates/markdown-slides?utm_source=hugoblox&utm_medium=demo
-    design:
-      spacing:
-        padding: ['5rem', '0', '4rem', '0']
-      css_class: 'dark:bg-zinc-900'
+      title: |
+        Wissenschaftliche Arbeiten
+        Prof. Dr. Christian Pfitzner
+      image:
+        filename: welcome.jpg
+      text: |
+        <br>
 
-  - block: features
-    content:
-      title: Why Markdown Slides
-      text: 'Best for: lab meetings, course lectures, paper reading groups, and startup demos.'
-      items:
-        - name: Version-controlled research
-          description: Write decks like code, track diffs, and cite stable versions.
-          icon: hero/code-bracket
-        - name: Research-native media
-          description: Math, citations, syntax highlighting, and diagrams out of the box.
-          icon: hero/document-text
-        - name: Future-proof format
-          description: Most future-proof format - Markdown is LLM-native for human-first, AI-assisted workflows.
-          icon: hero/bolt
+        Willkommen auf der Seite der betreuten wissenschaftlichen Arbeiten
+        von **Prof. Dr. Christian Pfitzner** an der **TH Nürnberg Georg Simon Ohm**,
+        Fakultät Elektrotechnik, Feinwerktechnik und Informationstechnik (efi),
+        sowie am **TTZ Nürnberger Land**.
 
-  # Featured Decks Row
-  - block: collection
-    id: decks
-    content:
-      title: Featured Decks
-      text: ''
-      filters:
-        folders:
-          - slides
-        featured_only: true
-      sort_by: Date
-      sort_ascending: false
-      count: 3
-    design:
-      view: slides-gallery
-      columns: 2
+        Hier finden Sie Projekt-, Bachelor- und Masterarbeiten aus den Bereichen
+        Mobile Robotik, Autonome Systeme und Drohnentechnologie.
 
   - block: collection
-    id: recent
     content:
-      title: Recent Decks
-      text: ''
+      title: Aktuelle Abschlussarbeiten
+      subtitle:
+      text:
+      count: 5
       filters:
-        folders:
-          - slides
-        exclude_featured: true
-      sort_by: Date
-      sort_ascending: false
-      count: 0
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: publication
     design:
-      view: slides-gallery
-      columns: 2
+      view: citation
+      columns: '1'
+
+  - block: markdown
+    content:
+      title:
+      subtitle:
+      text: |
+        {{% cta cta_link="./publication/" cta_text="Alle Arbeiten ansehen →" %}}
+    design:
+      columns: '1'
 ---

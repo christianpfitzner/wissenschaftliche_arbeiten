@@ -1,136 +1,115 @@
-# ══════════════════════════════════════════════════════════════════════════════
-# MARKDOWN SLIDES - HUGO BLOX CONFIGURATION
-# A minimal template for hosting and sharing slide decks
+# SITE SETUP
+# Guide: https://docs.hugoblox.com/tutorial/
 # Documentation: https://docs.hugoblox.com/
-# ══════════════════════════════════════════════════════════════════════════════
-hugoblox:
-  schema: "2.0"
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # IDENTITY
-  # Customize your slide deck site branding
-  # ────────────────────────────────────────────────────────────────────────────
-  identity:
-    name: "My Slides"
-    organization: ""
-    type: person                        # person | organization
-    tagline: "Open-source slide decks"
-    description: "Markdown-based slide presentations. Write in Markdown, present anywhere, share with anyone."
-    social:
-      twitter: ""                       # Twitter/X handle for social cards
+# Appearance
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # THEME
-  # ────────────────────────────────────────────────────────────────────────────
-  theme:
-    mode: system                        # light | dark | system
-    pack: "default"
-    colors:
-      primary: ""
-      secondary: ""
-      neutral: ""
+appearance:
+  theme_day: minimal
+  theme_night:
+  font: native
+  font_size: L
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # TYPOGRAPHY
-  # ────────────────────────────────────────────────────────────────────────────
-  typography:
-    # Theme pack: name from data/fonts/
-    pack: "modern"
+# SEO
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # LAYOUT
-  # ────────────────────────────────────────────────────────────────────────────
-  layout:
-    radius: "md"
-    spacing: "comfortable"
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # HEADER
-  # ────────────────────────────────────────────────────────────────────────────
-  header:
-    enable: true
-    style: navbar-simple                # Clean, minimal navbar
-    sticky: true
-    align: center
-    search: true                        # Enable search for larger deck collections
-    theme_toggle: true
-    theme_picker: false
-    language_switcher: false
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # FOOTER
-  # ────────────────────────────────────────────────────────────────────────────
-  footer:
-    style: minimal
-    language_switcher: false
-    text: ""
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # COPYRIGHT
-  # ────────────────────────────────────────────────────────────────────────────
-  copyright:
-    notice: "© {year} {name}"
-    license:
-      type: cc
-      allow_derivatives: true
-      share_alike: true
-      allow_commercial: false
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # CONTENT
-  # Math is enabled by default for technical presentations
-  # ────────────────────────────────────────────────────────────────────────────
-  content:
-    math:
-      enable: true                      # Enable LaTeX math for technical decks
-    toc:
-      enable: false                     # Not needed for slides
-    reading_time:
-      enable: false                     # Not relevant for slides
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # SEARCH
-  # ────────────────────────────────────────────────────────────────────────────
-  search:
-    enable: true
-    suggestions: []
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # COMMENTS - Disabled by default
-  # ────────────────────────────────────────────────────────────────────────────
-  comments:
-    enable: false
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # ANALYTICS - Add your tracking IDs
-  # ────────────────────────────────────────────────────────────────────────────
+marketing:
+  seo:
+    site_type: Organization
+    local_business_type: ''
+    org_name: 'TH Nürnberg Georg Simon Ohm'
+    description: 'Projekt-, Bachelor- und Masterarbeiten der TH Nürnberg, Fakultät efi und TTZ Nürnberger Land — betreut von Prof. Dr. Christian Pfitzner.'
+    twitter: ''
   analytics:
-    google:
-      measurement_id: ""
-    plausible:
-      domain: ""
+    google_analytics: ''
+    baidu_tongji: ''
+    google_tag_manager: ''
+    microsoft_clarity: ''
+  verification:
+    google: ''
+    baidu: ''
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # LOCALE
-  # ────────────────────────────────────────────────────────────────────────────
-  locale:
-    date_format: "Jan 2, 2006"
-    time_format: "3:04 PM"
+# Site header
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # SECURITY - Allow slides to be embedded in iframes
-  # ────────────────────────────────────────────────────────────────────────────
-  security:
-    frame_options: allow                 # deny | sameorigin | allow - allow enables iframe embedding
+header:
+  navbar:
+    enable: true
+    align: r
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: true
+    highlight_active_link: true
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # PREMIUM
-  # Premium features and creator program (affiliates)
-  # ────────────────────────────────────────────────────────────────────────────
-  pro:
-    # Hide "Powered by HugoBlox" attribution
-    # Requires: HugoBlox Premium to support HugoBlox via alternative means
-    # Note: Even with Premium, you can keep this false to support open source!
-    # Get Premium: https://hugoblox.com/premium
-    hide_attribution: false
-    affiliate_code: ""
+# Site footer
+
+footer:
+  copyright:
+    notice: '© {year} Prof. Dr. Christian Pfitzner, TH Nürnberg Georg Simon Ohm'
+    license:
+      enable: false
+
+# Localization
+
+locale:
+  date_format: '2. January 2006'
+  time_format: '15:04 Uhr'
+  address_format: de-de
+
+# Site features
+
+features:
+  syntax_highlighter:
+    enable: false
+    extra_languages:
+      - r
+      - latex
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/christianpfitzner/wissenschaftliche_arbeiten'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: 'mapnik'
+    api_key: ''
+    zoom: 15
+
+# Extensions
+
+extensions:
+  decap_cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
+
+# Citation style
+
+publications:
+  date_format: January 2006
+  citation_style: apa

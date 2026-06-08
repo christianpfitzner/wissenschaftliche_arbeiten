@@ -1,61 +1,62 @@
 # Configuration of Hugo
-# Documentation: https://gohugo.io/getting-started/configuration/
+# Guide: https://docs.hugoblox.com/tutorial/
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Website name (set in params.yaml under hugoblox.identity.name)
-title: ''
-# Website URL
-baseURL: 'https://example.com/'
+title: "Wissenschaftliche Arbeiten — Prof. Dr. Christian Pfitzner" # Website name
+baseURL: 'https://christianpfitzner.github.io/wissenschaftliche_arbeiten/' # Website URL
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: de
 hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
 removePathAccents: true
 
 ############################
 ## ADVANCED
 ############################
 
-build:
-  writeStats: true
 enableGitInfo: false
 summaryLength: 30
 pagination:
-  pagerSize: 12
+  pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+permalinks:
+  authors: '/author/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+  publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, headers, redirects]
+  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
-  page: [HTML]
-outputFormats:
-  HTML:
-    baseName: index
-  present:
-    baseName: index
-    isHTML: true
-    mediaType: text/html
-    permalinkable: true
-    path: present
-    rel: alternate
-    
-permalinks:
-  slides: /slides/:contentbasename/
 imaging:
   resampleFilter: lanczos
-  quality: 90
+  quality: 75
   anchor: smart
 timeout: 600000
 taxonomies:
   tag: tags
+  category: categories
+  publication_type: publication_types
+  author: authors
 markup:
   _merge: deep
-  highlight:
-    lineNos: false
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 70
 security:
   _merge: deep
 sitemap:

@@ -1,10 +1,16 @@
 # Navigation Links
-# Simple navigation for a slides-focused site
+#   Gewichtung (weight) bestimmt die Reihenfolge im Menü.
 
 main:
-  - name: Home
-    url: /
+  - name: Überblick
+    url: tour
     weight: 10
-  - name: Browse Decks
-    url: /slides/
+  - name: Neuigkeiten
+    url: post
     weight: 20
+  - name: Personen
+    url: people
+    weight: 30
+  - name: Abschlussarbeiten
+    url: publication
+    weight: 50

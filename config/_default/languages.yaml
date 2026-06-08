@@ -1,0 +1,10 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://docs.hugoblox.com/reference/language/
+
+# Standardsprache Deutsch
+de:
+  languageCode: de-de
+  title: "Wissenschaftliche Arbeiten — Prof. Dr. Christian Pfitzner"
+  params:
+    description: "Projekt-, Bachelor- und Masterarbeiten der TH Nürnberg, Fakultät efi, TTZ Nürnberger Land"
