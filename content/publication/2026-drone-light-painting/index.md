@@ -44,6 +44,9 @@ tags:
   - AerodrOHM
   - Light Painting
   - Python
+  - Masterarbeit
+  - Bachelorarbeit
+  - Projektarbeit
 
 categories:
   - Masterarbeit

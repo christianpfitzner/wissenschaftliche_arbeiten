@@ -37,6 +37,7 @@ tags:
   - KMU
   - Fallstudie
   - TTZ Nürnberger Land
+  - Projektarbeit
 
 categories:
   - Projektarbeit

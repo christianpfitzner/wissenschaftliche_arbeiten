@@ -43,6 +43,9 @@ tags:
   - AerodrOHM
   - 3D-Druck
   - Autonome Systeme
+  - Masterarbeit
+  - Bachelorarbeit
+  - Projektarbeit
 
 categories:
   - Masterarbeit

@@ -44,6 +44,8 @@ tags:
   - Hindernisvermeidung
   - Crazyflie
   - AerodrOHM
+  - Masterarbeit
+  - Projektarbeit
 
 categories:
   - Masterarbeit

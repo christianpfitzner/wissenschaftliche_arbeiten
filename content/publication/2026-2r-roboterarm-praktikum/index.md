@@ -51,6 +51,8 @@ tags:
   - Regelungstechnik
   - M-IAS
   - Praktikum
+  - Masterarbeit
+  - Projektarbeit
 
 categories:
   - Masterarbeit
