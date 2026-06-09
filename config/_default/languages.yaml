@@ -11,6 +11,9 @@ de:
       - name: Ausgeschriebene Arbeiten
         url: publication
         weight: 10
+      - name: Publikationen
+        url: https://scholar.google.com/citations?user=0GE5waYAAAAJ
+        weight: 15
       - name: Links
         url: links
         weight: 20
@@ -25,6 +28,9 @@ en:
       - name: Open Positions
         url: publication
         weight: 10
+      - name: Publications
+        url: https://scholar.google.com/citations?user=0GE5waYAAAAJ
+        weight: 15
       - name: Links
         url: links
         weight: 20

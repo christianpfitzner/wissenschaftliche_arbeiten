@@ -56,6 +56,7 @@ sections:
 
         ## Prof. Dr. Christian Pfitzner
 
+        - [Google Scholar — Publikationen](https://scholar.google.com/citations?user=0GE5waYAAAAJ)
         - [LinkedIn — Prof. Dr. Christian Pfitzner](https://www.linkedin.com/in/christian-pfitzner/)
         - [TH Nürnberg — Profilseite](https://www.th-nuernberg.de/person/pfitzner-christian/)
         - [GitHub — christianpfitzner](https://github.com/christianpfitzner)
