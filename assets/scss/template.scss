@@ -85,18 +85,31 @@ a:not(.btn):not(.navbar-brand):hover {
 
 // ---- Vortext (Abstract/Zusammenfassung): schwarz statt rot ----
 
-.article-subtitle,
-.pub-abstract p,
-.article-style-detail p {
-  color: #333;
+// Karten-Link-Wrapper: Farbe nicht vererben, damit Teasertext nicht rot wird
+a.card,
+a[class*="card"] {
+  color: #333 !important;
 }
 
-// Vorschautext in Karten nicht rot einfärben (erbt sonst Link-Farbe)
-.card-body p,
-.card-body .card-text,
+// Titellink innerhalb der Karte explizit rot halten
+a.card h1 a, a.card h2 a, a.card h3 a, a.card h4 a,
+a[class*="card"] h1 a, a[class*="card"] h2 a, a[class*="card"] h3 a {
+  color: #e2001a !important;
+}
+
+// Alle möglichen Teasertext-Klassen von HugoBlox
+.article-subtitle,
+.pub-abstract,
+.pub-abstract p,
+.article-style-detail p,
 .article-description,
 .card p,
-.card .summary {
+.card div,
+.card-body p,
+.card-body .card-text,
+.card .summary,
+.card .abstract,
+.page-body p {
   color: #333 !important;
 }
 
