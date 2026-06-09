@@ -83,6 +83,14 @@ a:not(.btn):not(.navbar-brand):hover {
   transform: translateY(-3px);
 }
 
+// ---- Vortext (Abstract/Zusammenfassung): schwarz statt rot ----
+
+.article-subtitle,
+.pub-abstract p,
+.article-style-detail p {
+  color: #333;
+}
+
 // ---- Breitere Inhaltsdarstellung ----
 
 // Seitencontainer auf größeren Bildschirmen erweitern
@@ -93,10 +101,29 @@ a:not(.btn):not(.navbar-brand):hover {
   }
 }
 
-// Publikationsliste — volle verfügbare Breite
-.col-12.col-lg-8 {
-  flex: 0 0 100%;
-  max-width: 100%;
+// Detailseite: Hauptinhalt breiter, Sidebar schmaler
+@media (min-width: 768px) {
+  .article-container .col-md-8 {
+    flex: 0 0 83.333%;
+    max-width: 83.333%;
+  }
+
+  .article-container .col-md-3 {
+    flex: 0 0 16.667%;
+    max-width: 16.667%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .article-container .col-md-8 {
+    flex: 0 0 88%;
+    max-width: 88%;
+  }
+
+  .article-container .col-md-3 {
+    flex: 0 0 12%;
+    max-width: 12%;
+  }
 }
 
 // ---- Hero-Bereich ----
