@@ -1,7 +1,7 @@
 ---
 title: 'Team autonOHM Succeeds at RoboCup World Championship'
 date: '2025-07-23T00:00:00Z'
-summary: 'Despite major technical and logistical challenges, team autonOHM achieved 3rd place in the @Work league and 4th place in the Rescue league at RoboCup 2025 in Salvador, Brazil — the best result in the team's history.'
+summary: "Despite major technical and logistical challenges, team autonOHM achieved 3rd place in the @Work league and 4th place in the Rescue league at RoboCup 2025 in Salvador, Brazil — the best result in the team's history."
 tags:
   - RoboCup
   - autonOHM
