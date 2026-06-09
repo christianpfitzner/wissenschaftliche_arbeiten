@@ -36,10 +36,10 @@ sections:
         ## AerodrOHM — Drone Research at OIC
 
         **AerodrOHM** is the drone research group of TH Nürnberg, based at the
-        OHM Innovation Campus (OIC). Research focuses on autonomous aerial systems,
+        OHM Innovation Center (OIC). Research focuses on autonomous aerial systems,
         drone swarms, and UAV-based sensing.
 
-        - [AerodrOHM — OHM Innovation Campus](https://www.th-nuernberg.de/einrichtungen-gesamt/einrichtungen-a-z/ohm-innovation-campus-oic/)
+        - [AerodrOHM — OHM Innovation Center](https://www.th-nuernberg.de/forschung-innovation/forschungseinrichtungen/ohm-innovation-center/forschung-am-oic/aerodrohm/)
 
         ---
 

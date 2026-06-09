@@ -36,10 +36,10 @@ sections:
         ## AerodrOHM — Drohnenforschung am OIC
 
         **AerodrOHM** ist die Drohnenforschungsgruppe der TH Nürnberg, beheimatet am
-        OHM Innovation Campus (OIC). Hier werden autonome Flugsysteme, Drohnenschwärme
+        OHM Innovation Center (OIC). Hier werden autonome Flugsysteme, Drohnenschwärme
         und UAV-basierte Sensorik erforscht.
 
-        - [AerodrOHM — OHM Innovation Campus](https://www.th-nuernberg.de/einrichtungen-gesamt/einrichtungen-a-z/ohm-innovation-campus-oic/)
+        - [AerodrOHM — OHM Innovation Center](https://www.th-nuernberg.de/forschung-innovation/forschungseinrichtungen/ohm-innovation-center/forschung-am-oic/aerodrohm/)
 
         ---
 
