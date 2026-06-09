@@ -126,6 +126,12 @@ a:not(.btn):not(.navbar-brand):hover {
   }
 }
 
+// ---- Weibo-Sharing-Button ausblenden ----
+
+li:has(a[href*="service.weibo.com"]) {
+  display: none;
+}
+
 // ---- Hero-Bereich ----
 
 .hero-title {
