@@ -123,31 +123,6 @@ a[class*="card"] h1 a, a[class*="card"] h2 a, a[class*="card"] h3 a {
   }
 }
 
-// Detailseite: Hauptinhalt breiter, Sidebar schmaler
-@media (min-width: 768px) {
-  .article-container .col-md-8 {
-    flex: 0 0 83.333%;
-    max-width: 83.333%;
-  }
-
-  .article-container .col-md-3 {
-    flex: 0 0 16.667%;
-    max-width: 16.667%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .article-container .col-md-8 {
-    flex: 0 0 88%;
-    max-width: 88%;
-  }
-
-  .article-container .col-md-3 {
-    flex: 0 0 12%;
-    max-width: 12%;
-  }
-}
-
 // ---- Weibo-Sharing-Button ausblenden ----
 
 li:has(a[href*="service.weibo.com"]) {
