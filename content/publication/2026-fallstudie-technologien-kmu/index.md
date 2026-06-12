@@ -82,9 +82,10 @@ Das Technologietransferzentrum Nürnberger Land hat das Ziel, in der Region Nür
 - Organisationsfähigkeit
 - Eigenständiges und zielgerichtetes Arbeiten
 
-## Kontakt
+## Betreuung
 
 Bei Interesse senden Sie bitte Ihren **Lebenslauf** sowie einen **Auszug Ihrer Noten** an:
 
-**Patrick Fußy**
-[patrick.fussy@th-nuernberg.de](mailto:patrick.fussy@th-nuernberg.de)
+| Rolle    | Name          | E-Mail                            |
+|----------|---------------|-----------------------------------|
+| Betreuer | Patrick Fußy  | patrick.fussy@th-nuernberg.de    |

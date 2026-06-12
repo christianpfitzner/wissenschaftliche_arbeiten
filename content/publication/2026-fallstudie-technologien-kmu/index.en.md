@@ -83,9 +83,10 @@ maintains a broad network of companies in this region.
 - Organisational ability
 - Independent and goal-oriented working style
 
-## Contact
+## Supervision
 
 Please send your **CV** and a **transcript of records** to:
 
-**Patrick Fußy**
-[patrick.fussy@th-nuernberg.de](mailto:patrick.fussy@th-nuernberg.de)
+| Role       | Name          | E-Mail                            |
+|------------|---------------|-----------------------------------|
+| Supervisor | Patrick Fußy  | patrick.fussy@th-nuernberg.de    |

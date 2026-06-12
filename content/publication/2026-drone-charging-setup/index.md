@@ -88,7 +88,8 @@ slides: ''
 
 Das Thema kann nach Abstimmung als **Projekt-, Bachelor- oder Masterarbeit** bearbeitet werden.
 
-## Kontakt
+## Betreuung
 
-**Prof. Dr. Christian Pfitzner** — Labor für mobile Robotik, TH Nürnberg Georg Simon Ohm
-[christian.pfitzner@th-nuernberg.de](mailto:christian.pfitzner@th-nuernberg.de)
+| Rolle    | Name                         | E-Mail                                 |
+|----------|------------------------------|----------------------------------------|
+| Betreuer | Prof. Dr. Christian Pfitzner | christian.pfitzner@th-nuernberg.de    |

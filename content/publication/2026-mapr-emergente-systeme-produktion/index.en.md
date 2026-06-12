@@ -103,10 +103,10 @@ This topic can also be completed as a **project or master's thesis** subject to 
 
 ## Supervision
 
-| | |
-|---|---|
-| **Prof. Dr. Christian Pfitzner** | [christian.pfitzner@th-nuernberg.de](mailto:christian.pfitzner@th-nuernberg.de) |
-| **Waldemar Haag** | [waldemar.haag@th-nuernberg.de](mailto:waldemar.haag@th-nuernberg.de) |
+| Role          | Name                         | E-Mail                                 |
+|---------------|------------------------------|----------------------------------------|
+| Supervisor    | Prof. Dr. Christian Pfitzner | christian.pfitzner@th-nuernberg.de    |
+| Co-Supervisor | Waldemar Haag                | waldemar.haag@th-nuernberg.de         |
 
 **Location:** TTZ Nürnberger Land, Lauf an der Pegnitz
 

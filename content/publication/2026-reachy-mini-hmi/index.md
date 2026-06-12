@@ -117,7 +117,10 @@ MRI-Forschung.
 
 Das Thema kann je nach Schwerpunkt und Aufwand als **Projektarbeit, Bachelorarbeit oder Masterarbeit** bearbeitet werden.
 
-## Kontakt
+## Betreuung
 
-**Prof. Dr. Christian Pfitzner** — TTZ Nürnberger Land / TH Nürnberg Georg Simon Ohm
-[christian.pfitzner@th-nuernberg.de](mailto:christian.pfitzner@th-nuernberg.de)
+| Rolle    | Name                         | E-Mail                                 |
+|----------|------------------------------|----------------------------------------|
+| Betreuer | Prof. Dr. Christian Pfitzner | christian.pfitzner@th-nuernberg.de    |
+
+**Ort:** TTZ Nürnberger Land / TH Nürnberg Georg Simon Ohm

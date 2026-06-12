@@ -106,10 +106,10 @@ This topic can also be completed as a **project or master's thesis** subject to 
 
 ## Supervision
 
-| | |
-|---|---|
-| **Prof. Dr. Christian Pfitzner** | [christian.pfitzner@th-nuernberg.de](mailto:christian.pfitzner@th-nuernberg.de) |
-| **M. Sc. Patrick Fußy** | [patrick.fussy@th-nuernberg.de](mailto:patrick.fussy@th-nuernberg.de) |
+| Role          | Name                         | E-Mail                                 |
+|---------------|------------------------------|----------------------------------------|
+| Supervisor    | Prof. Dr. Christian Pfitzner | christian.pfitzner@th-nuernberg.de    |
+| Co-Supervisor | M. Sc. Patrick Fußy          | patrick.fussy@th-nuernberg.de         |
 
 **Location:** TTZ Nürnberger Land, Martin-Luther-Straße 18, Lauf an der Pegnitz
 

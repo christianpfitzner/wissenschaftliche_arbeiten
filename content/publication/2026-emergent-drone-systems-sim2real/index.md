@@ -84,7 +84,10 @@ slides: ''
 
 Die Arbeit eignet sich je nach Schwerpunktsetzung als **Projektarbeit, Bachelorarbeit oder Masterarbeit**.
 
-## Kontakt
+## Betreuung
 
-**Prof. Dr. Christian Pfitzner** — TH Nürnberg Georg Simon Ohm / OIC
-[christian.pfitzner@th-nuernberg.de](mailto:christian.pfitzner@th-nuernberg.de)
+| Rolle    | Name                         | E-Mail                                 |
+|----------|------------------------------|----------------------------------------|
+| Betreuer | Prof. Dr. Christian Pfitzner | christian.pfitzner@th-nuernberg.de    |
+
+**Ort:** TH Nürnberg Georg Simon Ohm / OIC

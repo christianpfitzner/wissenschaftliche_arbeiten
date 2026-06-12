@@ -108,10 +108,10 @@ Das Thema kann nach Abstimmung auch als **Projekt- oder Masterarbeit** bearbeite
 
 ## Betreuung
 
-| | |
-|---|---|
-| **Prof. Dr. Christian Pfitzner** | [christian.pfitzner@th-nuernberg.de](mailto:christian.pfitzner@th-nuernberg.de) |
-| **M. Sc. Patrick Fußy** | [patrick.fussy@th-nuernberg.de](mailto:patrick.fussy@th-nuernberg.de) |
+| Rolle       | Name                         | E-Mail                                 |
+|-------------|------------------------------|----------------------------------------|
+| Betreuer    | Prof. Dr. Christian Pfitzner | christian.pfitzner@th-nuernberg.de    |
+| Co-Betreuer | M. Sc. Patrick Fußy          | patrick.fussy@th-nuernberg.de         |
 
 **Ort:** TTZ Nürnberger Land, Martin-Luther-Straße 18, Lauf an der Pegnitz
 

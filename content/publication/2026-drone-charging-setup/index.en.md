@@ -86,7 +86,8 @@ slides: ''
 
 This topic can be completed as a **project, bachelor's or master's thesis** subject to agreement.
 
-## Contact
+## Supervision
 
-**Prof. Dr. Christian Pfitzner** — Mobile Robotics Lab, TH Nürnberg Georg Simon Ohm
-[christian.pfitzner@th-nuernberg.de](mailto:christian.pfitzner@th-nuernberg.de)
+| Role       | Name                         | E-Mail                                 |
+|------------|------------------------------|----------------------------------------|
+| Supervisor | Prof. Dr. Christian Pfitzner | christian.pfitzner@th-nuernberg.de    |

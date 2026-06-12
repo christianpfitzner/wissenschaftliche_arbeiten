@@ -104,10 +104,10 @@ Das Thema kann nach Abstimmung auch als **Projekt- oder Masterarbeit** bearbeite
 
 ## Betreuung
 
-| | |
-|---|---|
-| **Prof. Dr. Christian Pfitzner** | [christian.pfitzner@th-nuernberg.de](mailto:christian.pfitzner@th-nuernberg.de) |
-| **Waldemar Haag** | [waldemar.haag@th-nuernberg.de](mailto:waldemar.haag@th-nuernberg.de) |
+| Rolle       | Name                         | E-Mail                                 |
+|-------------|------------------------------|----------------------------------------|
+| Betreuer    | Prof. Dr. Christian Pfitzner | christian.pfitzner@th-nuernberg.de    |
+| Co-Betreuer | Waldemar Haag                | waldemar.haag@th-nuernberg.de         |
 
 **Ort:** TTZ Nürnberger Land, Lauf an der Pegnitz
 

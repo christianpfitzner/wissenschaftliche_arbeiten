@@ -81,7 +81,10 @@ slides: ''
 
 Depending on the specific focus, the topic can be carried out as a **project thesis, bachelor's thesis, or master's thesis**.
 
-## Contact
+## Supervision
 
-**Prof. Dr. Christian Pfitzner** — TH Nürnberg Georg Simon Ohm / OIC
-[christian.pfitzner@th-nuernberg.de](mailto:christian.pfitzner@th-nuernberg.de)
+| Role       | Name                         | E-Mail                                 |
+|------------|------------------------------|----------------------------------------|
+| Supervisor | Prof. Dr. Christian Pfitzner | christian.pfitzner@th-nuernberg.de    |
+
+**Location:** TH Nürnberg Georg Simon Ohm / OIC

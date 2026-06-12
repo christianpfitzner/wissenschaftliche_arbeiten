@@ -112,7 +112,10 @@ platform — for technology presentations, visitor interaction, and experimental
 
 Depending on the focus and scope, the topic can be carried out as a **project thesis, bachelor's thesis, or master's thesis**.
 
-## Contact
+## Supervision
 
-**Prof. Dr. Christian Pfitzner** — TTZ Nürnberger Land / TH Nürnberg Georg Simon Ohm
-[christian.pfitzner@th-nuernberg.de](mailto:christian.pfitzner@th-nuernberg.de)
+| Role       | Name                         | E-Mail                                 |
+|------------|------------------------------|----------------------------------------|
+| Supervisor | Prof. Dr. Christian Pfitzner | christian.pfitzner@th-nuernberg.de    |
+
+**Location:** TTZ Nürnberger Land / TH Nürnberg Georg Simon Ohm
