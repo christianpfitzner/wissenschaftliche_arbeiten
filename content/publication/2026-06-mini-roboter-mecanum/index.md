@@ -80,10 +80,8 @@ dokumentiert.
 
 - Interesse an mobiler Robotik und praktischem Systemaufbau
 - Grundkenntnisse aus Elektrotechnik (Schaltungsaufbau, Energieversorgung)
-- Grundkenntnisse aus Maschinenbau (mechanischer Aufbau, CAD von Vorteil)
+- Grundkenntnisse CAD
 - Grundkenntnisse in Programmierung (Python oder C++ hilfreich)
-- Teamfähigkeit und Freude an interdisziplinärer Zusammenarbeit
-- Geeignet für Studierende der Studiengänge BEEI, BEME und verwandter Richtungen
 
 ## Betreuung
 

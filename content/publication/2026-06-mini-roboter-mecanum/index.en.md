@@ -76,10 +76,8 @@ fully design, build, commission, and document the robot.
 
 - Interest in mobile robotics and hands-on system integration
 - Basic knowledge of electrical engineering (circuit design, power supply)
-- Basic knowledge of mechanical engineering (structural design, CAD advantageous)
+- Basic CAD knowledge
 - Basic programming skills (Python or C++ helpful)
-- Ability to work in a team and enjoy interdisciplinary collaboration
-- Suitable for students of BEEI, BEME, and related degree programmes
 
 ## Supervision
 
